@@ -1,0 +1,12 @@
+.bannerImage{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+.filter-sec{
+    height: 6vh;
+    background-color: aqua;
+}
