@@ -1,4 +1,4 @@
-import React ,{useContext}from "react";
+import React, { useContext } from "react";
 import {
   Container,
   Nav,
@@ -18,7 +18,7 @@ export default function NavBar() {
   const Globalstate = useContext(Cartcontext);
   const state = Globalstate.state;
 
-  const{auth} = useAuth();
+  const { auth } = useAuth();
 
   return (
     <Navbar variant="dark" expand="lg" className="nav-bar" sticky="top">
@@ -58,11 +58,15 @@ export default function NavBar() {
           </Nav>
           <Nav className="ms-5 nav-links">
             <Nav.Link className="me-3 text-white">
-              {auth.userdata? <ProfileDropdown/> : <Link to="/login" className="nav-bar-link-comp">
-                SignIn
-              </Link>}
-              
+              {auth && auth.userdata ? (
+                <ProfileDropdown />
+              ) : (
+                <Link to="/login" className="nav-bar-link-comp">
+                  SignIn
+                </Link>
+              )}
             </Nav.Link>
+
             <Nav.Link className="me-3 text-white">
               <Link to="/cart" className="nav-bar-link-comp">
                 <div className="d-flex bucket-container">
