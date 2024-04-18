@@ -14,9 +14,9 @@ const AddProductModal = ({ show, handleClose }) => {
   var [sellerUsername, setSellerUsername] = useState('');
 
   useEffect(() => {
-    const sellerInfo = JSON.parse(localStorage.getItem('userInfo'));
+    /*const sellerInfo = JSON.parse(localStorage.getItem('userInfo'));
     const getSellerId = sellerInfo['_id'];
-    setSellerId(getSellerId);
+    setSellerId(getSellerId);*/
   }, []);
 
   const handleSubmit = (e) => {

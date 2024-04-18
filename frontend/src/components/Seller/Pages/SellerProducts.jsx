@@ -49,9 +49,9 @@ const SellerProducts = () => {
   }
 
   const getProducts = () => {
-    const sellerInfo = JSON.parse(localStorage.getItem("userInfo"));
+    /*const sellerInfo = JSON.parse(localStorage.getItem("userInfo"));
     console.log(sellerInfo);
-    const getSellerId = sellerInfo["_id"];
+    const getSellerId = sellerInfo["_id"];*/
     axios
       .get(`http://localhost:5004/api/products/`)
 
@@ -107,7 +107,7 @@ const SellerProducts = () => {
           <div class="container bg-white">
             <div class="row">
               {product.map((product) => (
-                <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
+                <div class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-i my-3">
                   <div class="product">
                     {/* <div className="productImg"> */}
                     <img

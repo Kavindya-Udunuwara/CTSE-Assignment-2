@@ -24,7 +24,7 @@ function ProfileDropdown() {
           {auth.role === "buyer" ? (
             <Link to="/customer/profile">Profile</Link>
           ) : (
-            <Link to="/seller/profile">Profile</Link>
+            <Link to="/seller/products">Profile</Link>
           )}
         </Dropdown.Item>
         <Dropdown.Item>

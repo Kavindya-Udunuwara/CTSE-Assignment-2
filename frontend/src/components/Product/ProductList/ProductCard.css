@@ -4,10 +4,6 @@
   background-position: center center;
 }
 
-.filter-sec {
-  height: 6vh;
-  background-color: rgb(166, 46, 150);
-}
 
 /* Container styles */
 /* Container styles */
@@ -21,15 +17,15 @@
   margin-bottom: 30px;
   display: inline-block; /* Make items align horizontally */
   text-align: center; /* Center all content */
-  width: 60%; /* Ensure items take full width */
-  border: 2px solid #510662; /* Border color */
+  width: 100%; /* Ensure items take full width */
+  border: 3px solid #510662; /* Border color */
   margin: 1%; /* Padding around items */
   padding: 1%;
   height: 800px;
 }
 
 .product-image {
-  width: 60%;
+  width: 80%;
   height: 500px;
   border-radius: 5px;
   object-fit: cover; /* Ensure image covers the container */
