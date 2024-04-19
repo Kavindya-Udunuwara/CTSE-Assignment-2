@@ -24,7 +24,7 @@ export default function NavBar() {
     <Navbar variant="dark" expand="lg" className="nav-bar" sticky="top">
       <Container>
         <Link to="/" className="nav-bar-link-comp">
-          <Navbar.Brand className="me-5">RareAyur</Navbar.Brand>
+          <Navbar.Brand className="me-5">ElegantMart</Navbar.Brand>
         </Link>
         <Navbar.Toggle aria-controls="rareayur-navbar" />
         <Navbar.Collapse id="rareayur-navbar">

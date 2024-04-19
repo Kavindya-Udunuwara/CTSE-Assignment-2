@@ -17,11 +17,12 @@ import Login from "./components/User/Auth/Login";
 import Signup from "./components/User/Auth/Signup";
 import Logout from "./components/User/Auth/Logout";
 import BuyerProfile from "./components/User/Profile/BuyerProfile";
-import SellerProfile from "./components/User/Profile/SellerProfile";
+import SellerDashboard from "./components/Seller/Pages/SellerDashboard";
 import SingleProduct from "./components/Product/SingleProduct/SingleProduct";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Layout } from "./components/Layout";
 import AuthLayout from "./components/AuthLayout";
+import SellerProducts from "./components/Seller/Pages/SellerProducts";
 
 function App() {
   return (
@@ -41,8 +42,10 @@ function App() {
               <Route path="/customer/profile" element={<BuyerProfile />} />
             </Route>
             <Route element={<AuthLayout allowedR={"seller"} />}>
-            <Route path="/seller/profile" element={<SellerProfile />} />
-          </Route>
+              <Route path="/seller/dashboard" element={<SellerDashboard />} />
+              <Route path="/seller/products" element={<SellerProducts />} />
+             
+            </Route>
           </Route>
 
           {/* -------------------protected routes-------------------------- */}
