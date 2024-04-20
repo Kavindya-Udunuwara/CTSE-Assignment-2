@@ -71,7 +71,7 @@ const SellerSidebar = () => {
                 className="text-decoration-none px-3 py-2 d-block"
               >
                 <i class="bi bi-card-list"></i>
-                <span style={{ paddingLeft: "0.7rem" }}>My Orders</span>
+                <span style={{ paddingLeft: "0.7rem" }}></span>
               </Link>
             </li>
             {/* <li>
@@ -90,7 +90,7 @@ const SellerSidebar = () => {
                 className="text-decoration-none px-3 py-2 d-block"
               >
                 <i class="bi bi-bag-plus"></i>
-                <span style={{ paddingLeft: "0.7rem" }}>My Profile</span>
+                <span style={{ paddingLeft: "0.7rem" }}></span>
               </Link>
             </li>
           </ul>

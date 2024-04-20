@@ -29,7 +29,7 @@ export default function CartProductCard(props) {
         >+</Button>
       </Col>
       <Col className="text-end">$ {props.item.quantity * props.item.price}</Col>
-      <Col className="text-end"><Button className="i-d-buttons bg-danger" onClick={() => props.handleDispatch({ type: "REMOVE", payload: props.item })}>X</Button></Col>
+      <Col className="text-end"><Button className="i-d-buttons" onClick={() => props.handleDispatch({ type: "REMOVE", payload: props.item })}>X</Button></Col>
     </Row>
   );
 }

@@ -10,7 +10,7 @@ export default function ProductListPage() {
     <Container fluid>
       <Row>
         <Col
-          style={{ backgroundImage: `url('https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/shark-new-collection-sale-clothing-banner-template-p3ztild89dffd0.webp')`, height: "50vh" }}
+          style={{ backgroundImage: `url('https://marketplace.canva.com/EAFuUVuQu98/1/0/1600w/canva-yellow-pink-bold-fashion-sale-landscape-banner-XgQnSpGbsnQ.jpg')`, height: "95vh" }}
           className="bannerImage"
         ></Col>
     

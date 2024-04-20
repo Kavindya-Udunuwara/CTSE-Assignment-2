@@ -90,7 +90,7 @@ const SellerProducts = () => {
             className="btn btnProduct"
             onClick={handleAddProductModalShow}
             value="Add Product"
-            style={{ backgroundColor: "#231942" }}
+            style={{ backgroundColor: "#99775C" }}
           >
             Add Product
           </button>
@@ -118,7 +118,7 @@ const SellerProducts = () => {
                     {/* </div> */}
                     <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
                       <Link
-                        to={"/system/seller-products/update/" + product._id}
+                        to={"/seller/UpdateProductModal/" + product._id}
                       >
                         <li class="icon " id="edit">
                           <span class="bi bi-pen"></span>

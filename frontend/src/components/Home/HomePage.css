@@ -6,7 +6,7 @@
 
       background-blend-mode: darken;
       background-repeat: no-repeat;
-      color: white;
+      color: #EAE7DD;
       text-align: center;
       
     
@@ -15,8 +15,8 @@
 .shopNow-btn{
     width: 130px;
     height: 45px;
-    background-color: #00BF00 !important;
-    border: 1px solid #00BF00 !important;
+    background-color: #99775C !important;
+    border: 1px solid #99775C !important;
     border-radius: 50px !important;
     text-align: center;
 
@@ -26,7 +26,7 @@
     width: 130px;
     height: 45px;
     background-color: transparent !important;
-    border: 1px solid #00BF00 !important;
+    border: 1px solid #99775C!important;
     border-radius: 50px !important;
     text-align: center;
 

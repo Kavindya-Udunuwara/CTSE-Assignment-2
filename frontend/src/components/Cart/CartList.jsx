@@ -29,7 +29,7 @@ export default function CartList() {
 
   return (
     <Col className="c-p-l-sec p-5">
-      <h3>Shopping Cart</h3>
+      <h3 >Shopping Cart</h3>
       <br />
       {cartCards.length !== 0 ? <CartListTitles /> : <h4>Cart is empty</h4>}
       

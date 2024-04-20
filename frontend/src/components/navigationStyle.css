@@ -1,5 +1,5 @@
 .nav-bar{
-    background-color: hsl(304, 100%, 37%);
+    background-color:#99775C ;
 }
 
 .bucket{
@@ -13,7 +13,7 @@
 
 .nav-bar-link-comp{
     text-decoration: none;
-    color: #fff;
+    color: #EAE7DD;
 }
 
 .nav-bar-link-comp:hover{

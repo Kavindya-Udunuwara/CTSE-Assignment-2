@@ -6,7 +6,7 @@
 
 .filter-sec {
   height: 6vh;
-  background-color: rgb(166, 46, 150);
+  background-color: #99775C;
 }
 
 /* Container styles */
@@ -38,7 +38,7 @@
 .product-title {
   font-size: 1.1rem;
   margin-top: 10px;
-  color: #333; /* Title color */
+  color: #EAE7DD; /* Title color */
 }
 
 .item-price {

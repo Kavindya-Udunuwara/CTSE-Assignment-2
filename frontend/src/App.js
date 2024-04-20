@@ -23,6 +23,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Layout } from "./components/Layout";
 import AuthLayout from "./components/AuthLayout";
 import SellerProducts from "./components/Seller/Pages/SellerProducts";
+import UpdateProductModal from "./components/Seller/Components/SellerProducts/UpdateProductModal";
 
 function App() {
   return (
@@ -44,6 +45,8 @@ function App() {
             <Route element={<AuthLayout allowedR={"seller"} />}>
               <Route path="/seller/dashboard" element={<SellerDashboard />} />
               <Route path="/seller/products" element={<SellerProducts />} />
+              <Route path="/seller/UpdateProductModal/:id" element={<UpdateProductModal/>} />
+              
              
             </Route>
           </Route>
@@ -59,7 +62,7 @@ function App() {
             </Route>
           </Route>
 
-          {/* -------------------commen routes-------------------------- */}
+          {/* -------------------common routes-------------------------- */}
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/logout" element={<Logout />} />
