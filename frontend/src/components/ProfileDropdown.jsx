@@ -27,6 +27,17 @@ function ProfileDropdown() {
             <Link to="/seller/products">Profile</Link>
           )}
         </Dropdown.Item>
+    
+        <Dropdown.Item>
+          {auth.role === "seller" ? (
+            <Link to="/seller/dashboard">Profile</Link>
+          ) : (
+            <Link to="/seller/products">Profile</Link>
+          )}
+        </Dropdown.Item>
+
+
+
         <Dropdown.Item>
           <Button onClick={() => logout()}>SignOut</Button>
         </Dropdown.Item>

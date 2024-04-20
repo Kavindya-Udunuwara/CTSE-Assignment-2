@@ -5,7 +5,7 @@ export default function ProductFilter() {
   return (
     <Container fluid>
         <Row>
-            <Col className='filter-sec mt-5 mb-5'>This is the filter section</Col>
+            <Col className='filter-sec mt-5 mb-5'></Col>
         </Row>
     </Container>
   )

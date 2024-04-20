@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./styles/SellerDashboard.css";
-
+import { Container, Row, Col } from "react-bootstrap";
 import SellerSidebar from "../Components/Sidebar/SellerSidebar";
 import SellerNav from "../Components/SystemNavBar/SellerNav";
 
@@ -15,9 +15,15 @@ const SellerDashboard = () => {
 
       <div
         className="contentContainer"
-        style={{
-          backgroundColor: "#f5f5f5",
-        }}
+        
+          style={{ backgroundImage: `url('https://marketplace.canva.com/EAFuUVuQu98/1/0/1600w/canva-yellow-pink-bold-fashion-sale-landscape-banner-XgQnSpGbsnQ.jpg')`, height: "100vh" ,width:"180vh"}}
+          
+        
+          
+
+
+
+      
       >
         <div className="systemNavBar">
          
